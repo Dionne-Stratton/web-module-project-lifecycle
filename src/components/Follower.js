@@ -4,7 +4,8 @@ class Follower extends React.Component {
     render() {
         return (
             <div>
-                 <p>Follower Name: {this.props.item.login}</p>
+                 <p>handle: {this.props.follower.login}</p>
+                 <img width="200" src={this.props.follower.avatar_url} />
             </div>
         );
       }
